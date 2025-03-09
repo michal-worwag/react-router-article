@@ -20,6 +20,14 @@ const Navigation = () => {
             About
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to='/products'
+            className={({ isActive }) => (isActive ? 'text-blue-500' : '')}
+          >
+            Products
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
